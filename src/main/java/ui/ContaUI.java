@@ -10,7 +10,7 @@ public class ContaUI {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
-        System.out.println("Por favor digite o número da model.Conta: ");
+        System.out.println("Por favor digite o número da Conta: ");
         int numeroConta = scanner.nextInt();
 
         System.out.println("Por favor digite o número da Agência: ");
