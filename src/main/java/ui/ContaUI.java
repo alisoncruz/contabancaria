@@ -17,10 +17,10 @@ public class ContaUI {
         scanner.nextLine();
         String numeroAgencia = scanner.nextLine();
 
-        System.out.println("Por favor o nome do Cliente: ");
+        System.out.println("Por favor digite o nome do Cliente: ");
         String nomeCliente= scanner.nextLine();
 
-        System.out.println("Por favor digite o o saldo: ");
+        System.out.println("Por favor digite o saldo: ");
         double saldo = scanner.nextDouble();
 
         Conta conta = new Conta(numeroConta,numeroAgencia,nomeCliente,saldo);
